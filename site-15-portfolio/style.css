@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1e293b;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* HERO */
+header {
+    text-align: center;
+    padding: 60px;
+}
+
+/* ABOUT */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+/* SKILLS */
+.skills {
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}

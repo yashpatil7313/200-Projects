@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    padding: 15px 40px;
+    background: #1e293b;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* MAIN POSTS */
+main {
+    flex: 3;
+}
+
+.post {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* SIDEBAR */
+aside {
+    flex: 1;
+    margin-left: 20px;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+aside li {
+    margin: 5px 0;
+}

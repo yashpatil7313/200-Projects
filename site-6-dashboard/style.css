@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+/* SIDEBAR */
+aside {
+    width: 200px;
+    background: #1e293b;
+    height: 100vh;
+    padding: 20px;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+aside ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}

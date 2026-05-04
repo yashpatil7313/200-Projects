@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+/* GALLERY GRID */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* IMAGES */
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.gallery img:hover {
+    transform: scale(1.1);
+}

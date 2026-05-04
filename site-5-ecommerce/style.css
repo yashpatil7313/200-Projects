@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    background: #1e293b;
+}
+
+/* PRODUCTS GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* BUTTON */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #38bdf8;
+    border-radius: 20px;
+    cursor: pointer;
+}
