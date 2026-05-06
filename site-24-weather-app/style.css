@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #38bdf8, #0ea5e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.weather-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: #0f172a;
+}

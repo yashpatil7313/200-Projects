@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #9333ea, #3b82f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    background: #0f172a;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.song {
+    margin: 20px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bar {
+    margin-top: 20px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+}

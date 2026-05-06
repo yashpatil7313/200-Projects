@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    padding: 15px 40px;
+    background: #111;
+}
+
+/* BANNER */
+header {
+    padding: 60px 40px;
+}
+
+/* MOVIES */
+.movies {
+    padding: 20px 40px;
+}
+
+.row {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.row img {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+}
